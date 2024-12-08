@@ -10,8 +10,7 @@
   "author": "storycraft <storycraft@pancake.sh>",
   "dependencies": {
     "@mcslib/builder": "^0.7.0",
-    "@mcslib/datapack": "^0.7.0",
-    "mcslib": "^0.7.0"
+    "@mcslib/datapack": "^0.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",

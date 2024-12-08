@@ -14,9 +14,6 @@ importers:
       '@mcslib/datapack':
         specifier: ^0.7.0
         version: 0.7.0
-      mcslib:
-        specifier: ^0.7.0
-        version: 0.7.0
     devDependencies:
       '@eslint/js':
         specifier: ^9.16.0
