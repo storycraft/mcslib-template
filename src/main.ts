@@ -8,9 +8,9 @@ const writer = new DatapackWriter('mcslib_template', createWriteStream(path));
 await writer.addStream('pack.mcmeta', createReadStream('./pack.mcmeta'));
 
 await writer.export({
-    name: 'hello_world',
-    fn: helloWorld,
-    args: [],
+  name: 'hello_world',
+  fn: helloWorld,
+  args: [],
 });
 
 await writer.finish();
